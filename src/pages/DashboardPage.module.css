@@ -1,0 +1,23 @@
+.dashboardPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-xxl) var(--space-lg);
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.note {
+  color: var(--color-text-secondary);
+  margin: var(--space-xl) 0;
+}
+
+.actions {
+  margin-top: var(--space-xl);
+  display: flex;
+  justify-content: center;
+} 
